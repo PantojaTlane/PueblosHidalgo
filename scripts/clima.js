@@ -72,7 +72,7 @@ let climasPueblos = new Array();
 function obtenerClimaPueblosMagicos(pais,estado,ciudad){
     const apiId = "84d70eb0548ae3641b62fbc3332ef7a1";
     
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${estado},${pais}&appid=${apiId}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${estado},${pais}&appid=${apiId}`;
     
     return fetch(url)
         .then(respuesta => respuesta.json())
