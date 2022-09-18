@@ -2,7 +2,7 @@
 
 function consultarAPI(pais,ciudad){
 
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${apiId}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${apiId}`;
 
     fetch(url)
         .then(respuesta => respuesta.json())
