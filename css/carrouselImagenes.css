@@ -67,6 +67,7 @@
     opacity: .75;
 }
 
+
 /* botones */
 .slick-arrow{
     border-radius: 30px;
@@ -93,4 +94,17 @@
 }
 .slick-next{
     right: 0px;
+}
+
+
+.ver-mas-carrousel{
+    text-decoration: none;
+    color: var(--oliva);
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 8rem;
+    font-weight: 500;
 }
