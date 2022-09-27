@@ -82,3 +82,26 @@
 .maguey:hover  {-webkit-transform:scale(1);transform:scale(1.1);}
 .baño:hover  {-webkit-transform:scale(1);transform:scale(1.1);}
 .tepathe:hover  {-webkit-transform:scale(1);transform:scale(1.1);}
+
+
+
+
+
+#conocer-balnearios{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}#conocer-balnearios > a{
+    background-color: var(--oliva);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all ease-in 0.3s;
+}
+#conocer-balnearios > a:hover{
+    background-color: #3b3b3b;
+}

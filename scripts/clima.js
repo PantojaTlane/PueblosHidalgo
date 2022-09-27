@@ -108,6 +108,7 @@ function obtenerTemperatura(datos,ciudad) {
                 <i class="fa-solid fa-temperature-three-quarters"></i>
                 <h4>${lugar.clima}°C</h4>
                 </div>
+                </a>
             `;
             containerPueblos.appendChild(div);
         }
